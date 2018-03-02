@@ -1,0 +1,20 @@
+{
+  "name": "jxfs-lookup",
+  "description": "J/XFS Constant Field Values Lookup",
+  "author": "amimaro",
+  "version": "0.1.0",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "ava"
+  },
+  "repository": "amimaro/jxfs-lookup",
+  "keywords": [],
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "ava": "*"
+  }
+}
