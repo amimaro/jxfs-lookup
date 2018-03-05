@@ -31,7 +31,3 @@ MIT
 5. Create new Pull Request
 
 Crafted with <3 by amimaro ([@amimaro](https://twitter.com/amimaro)).
-
-***
-
-> This package was initially generated with [yeoman](http://yeoman.io) and the [p generator](https://github.com/johnotander/generator-p.git).
