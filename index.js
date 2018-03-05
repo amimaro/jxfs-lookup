@@ -1,7 +1,14 @@
 'use strict'
 
 const fs = require('fs')
-const data = JSON.parse(fs.readFileSync('node_modules/jxfs-lookup/constants.min.json'))
+const path = require('path')
+const data = JSON.parse(
+  fs.readFileSync(
+    path.resolve(
+      process.cwd() == __dirname ? '' : process.cwd() + '/node_modules/jxfs-lookup', 'constants.min.json'
+    )
+  )
+)
 
 class jxfsLookup {
   query(query, callback) {
