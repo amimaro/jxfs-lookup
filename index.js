@@ -20,7 +20,7 @@ class jxfsLookup {
         let result = []
         Object.values(data).map((control) => {
           Object.values(control.content).map((status) => {
-            if(status.val == query)
+            if(status.code == query)
               result.push(status)
           })
         })
