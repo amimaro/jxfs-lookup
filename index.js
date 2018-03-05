@@ -25,7 +25,7 @@ class jxfsLookup {
           })
         })
         resolve(result)
-        return callback(null, result)
+        return callback(result)
       }
     })
   }
