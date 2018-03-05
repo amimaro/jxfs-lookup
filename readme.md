@@ -13,9 +13,17 @@ npm install --save jxfs-lookup
 ```javascript
 const jxfsLookup = require('jxfs-lookup')
 
-jxfsLookup.query(CODE).then((res) => {
-  console.log(res)
-})
+jxfsLookup.query(CODE) // => CODE e.g., 1024
+    .then(
+        res => {
+            console.log(res)
+        }
+    )
+    .catch(
+        err => {
+            console.error(err)
+        }
+    );
 ```
 
 ## Testing
