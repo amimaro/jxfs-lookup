@@ -18,6 +18,12 @@ jxfsLookup.query(CODE).then((res) => {
 })
 ```
 
+## Testing
+
+```bash
+npm run test
+```
+
 ## License
 
 MIT
