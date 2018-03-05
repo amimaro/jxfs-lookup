@@ -11,9 +11,11 @@ npm install --save jxfs-lookup
 ## Usage
 
 ```javascript
-var jxfsLookup = require('jxfs-lookup')
+const jxfsLookup = require('jxfs-lookup')
 
-jxfsLookup()  // => true
+jxfsLookup.query(CODE).then((res) => {
+  console.log(res)
+})
 ```
 
 ## License
