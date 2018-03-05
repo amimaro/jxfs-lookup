@@ -1,7 +1,7 @@
 {
     "IJxfsALMConst": {
         "interface": "com.jxfs.control.alm.IJxfsALMConst",
-        "content": [
+        "values": [
             {
                 "type": "public static final int",
                 "prop": "JXFS_E_ALM_DEVICE_ERROR",
@@ -27,7 +27,7 @@
     },
     "IJxfsCameraConst": {
         "interface": "com.jxfs.control.cam.IJxfsCameraConst",
-        "content": [
+        "values": [
             {
                 "type": "public static final java.lang.String",
                 "prop": "JXFS_CAM_EXITSLOT",
@@ -165,7 +165,7 @@
     },
     "IJxfsCDRConst": {
         "interface": "com.jxfs.control.cdr.IJxfsCDRConst",
-        "content": [
+        "values": [
             {
                 "type": "public static final int",
                 "prop": "JXFS_C_CDR_CURR_BILL",
@@ -1472,7 +1472,7 @@
     },
     "JxfsDeviceStatus": {
         "interface": "com.jxfs.control.cdr.JxfsDeviceStatus",
-        "content": [
+        "values": [
             {
                 "type": "public static final int",
                 "prop": "BUSY",
@@ -1526,7 +1526,7 @@
     },
     "IJxfsCheckReaderConst": {
         "interface": "com.jxfs.control.chk.IJxfsCheckReaderConst",
-        "content": [
+        "values": [
             {
                 "type": "public static final int",
                 "prop": "JXFS_CHK_IMAGE_BOTH",
@@ -1734,7 +1734,7 @@
     },
     "IJxfsDepConst": {
         "interface": "com.jxfs.control.dep.IJxfsDepConst",
-        "content": [
+        "values": [
             {
                 "type": "public static final int",
                 "prop": "JXFS_DEP_BAGDROP",
@@ -2285,7 +2285,7 @@
     },
     "JxfsDepConst": {
         "interface": "com.jxfs.control.dep.JxfsDepConst",
-        "content": [
+        "values": [
             {
                 "type": "public static final int",
                 "prop": "JXFS_DEP_BAGDROP",
@@ -2836,7 +2836,7 @@
     },
     "IJxfsCCDConst": {
         "interface": "com.jxfs.control.msd.IJxfsCCDConst",
-        "content": [
+        "values": [
             {
                 "type": "public static final int",
                 "prop": "JXFS_CCD_OFFSET",
@@ -2960,7 +2960,7 @@
     },
     "IJxfsMotorizedCardConst": {
         "interface": "com.jxfs.control.msd.IJxfsMotorizedCardConst",
-        "content": [
+        "values": [
             {
                 "type": "public static final int",
                 "prop": "JXFS_E_MOTOR_BINFULL",
@@ -3070,7 +3070,7 @@
     },
     "IJxfsMSDConst": {
         "interface": "com.jxfs.control.msd.IJxfsMSDConst",
-        "content": [
+        "values": [
             {
                 "type": "public static final int",
                 "prop": "JXFS_E_MSD_BADDATA",
@@ -3313,7 +3313,7 @@
     },
     "JxfsCCDConst": {
         "interface": "com.jxfs.control.msd.JxfsCCDConst",
-        "content": [
+        "values": [
             {
                 "type": "public static final int",
                 "prop": "JXFS_CCD_OFFSET",
@@ -3423,7 +3423,7 @@
     },
     "JxfsMotorizedCardConst": {
         "interface": "com.jxfs.control.msd.JxfsMotorizedCardConst",
-        "content": [
+        "values": [
             {
                 "type": "public static final int",
                 "prop": "JXFS_E_MOTOR_BINFULL",
@@ -3533,7 +3533,7 @@
     },
     "IJxfsPINConst": {
         "interface": "com.jxfs.control.pin.IJxfsPINConst",
-        "content": [
+        "values": [
             {
                 "type": "public static final int",
                 "prop": "JXFS_E_PIN_ACCESS_DENIED",
@@ -4455,7 +4455,7 @@
     },
     "IJxfsPINIsoConst": {
         "interface": "com.jxfs.control.pin.IJxfsPINIsoConst",
-        "content": [
+        "values": [
             {
                 "type": "public static final int",
                 "prop": "JXFS_E_PARAMETER_INVALID",
@@ -4663,7 +4663,7 @@
     },
     "JxfsPINReadMode": {
         "interface": "com.jxfs.control.pin.JxfsPINReadMode",
-        "content": [
+        "values": [
             {
                 "type": "public static final int",
                 "prop": "JXFS_PIN_NO_MINIMUM_LENGTH",
@@ -4675,7 +4675,7 @@
     },
     "IJxfsPrinterConst": {
         "interface": "com.jxfs.control.ptr.IJxfsPrinterConst",
-        "content": [
+        "values": [
             {
                 "type": "public static final int",
                 "prop": "JXFS_E_PTR_EXIT_ENTRY_FAILURE",
@@ -5765,7 +5765,7 @@
     },
     "IJxfsSiuConst": {
         "interface": "com.jxfs.control.siu.IJxfsSiuConst",
-        "content": [
+        "values": [
             {
                 "type": "public static final int",
                 "prop": "JXFS_E_SIU_INVALID_PORT",
@@ -6554,7 +6554,7 @@
     },
     "IJxfsTIOConst": {
         "interface": "com.jxfs.control.tio.IJxfsTIOConst",
-        "content": [
+        "values": [
             {
                 "type": "public static final int",
                 "prop": "JXFS_E_TIO_BEEP",
@@ -7154,7 +7154,7 @@
     },
     "IJxfsVDMConst": {
         "interface": "com.jxfs.control.vdm.IJxfsVDMConst",
-        "content": [
+        "values": [
             {
                 "type": "public static final int",
                 "prop": "JXFS_E_VDM_NOT_IN_VDM",
@@ -7243,7 +7243,7 @@
     },
     "LocalizedErrorMessages": {
         "interface": "com.jxfs.forum.i18n.LocalizedErrorMessages",
-        "content": [
+        "values": [
             {
                 "type": "public static final java.lang.String",
                 "prop": "LOG_MSG_SEVERITY_ERROR",
@@ -7276,7 +7276,7 @@
     },
     "JxfsLoggerConst": {
         "interface": "com.jxfs.forum.logging.JxfsLoggerConst",
-        "content": [
+        "values": [
             {
                 "type": "public static final java.lang.String",
                 "prop": "ALM_COMM",
@@ -7512,7 +7512,7 @@
     },
     "IDFactory": {
         "interface": "com.jxfs.forum.support.IDFactory",
-        "content": [
+        "values": [
             {
                 "type": "public static final int",
                 "prop": "MIN_CONTROLID",
@@ -7531,7 +7531,7 @@
     },
     "InQueueControl": {
         "interface": "com.jxfs.forum.support.InQueueControl",
-        "content": [
+        "values": [
             {
                 "type": "public static final int",
                 "prop": "QUEUECONTROL_ACTIVE",
@@ -7550,7 +7550,7 @@
     },
     "QueueControl": {
         "interface": "com.jxfs.forum.support.QueueControl",
-        "content": [
+        "values": [
             {
                 "type": "public static final int",
                 "prop": "QUEUECONTROL_ACTIVE",
@@ -7569,7 +7569,7 @@
     },
     "SuppLoggerConst": {
         "interface": "com.jxfs.forum.support.SuppLoggerConst",
-        "content": [
+        "values": [
             {
                 "type": "public static final java.lang.String",
                 "prop": "KERNEL",
@@ -7616,7 +7616,7 @@
     },
     "SupportErrorMessages": {
         "interface": "com.jxfs.forum.support.SupportErrorMessages",
-        "content": [
+        "values": [
             {
                 "type": "public static final java.lang.String",
                 "prop": "LOG_MSG_SEVERITY_ERROR",
@@ -7649,7 +7649,7 @@
     },
     "IJxfsConst": {
         "interface": "com.jxfs.general.IJxfsConst",
-        "content": [
+        "values": [
             {
                 "type": "public static final int",
                 "prop": "JXFS_ALL",
@@ -8172,7 +8172,7 @@
     },
     "JxfsConst": {
         "interface": "com.jxfs.general.JxfsConst",
-        "content": [
+        "values": [
             {
                 "type": "public static final java.lang.String",
                 "prop": "IBM_COPYRIGHT",
@@ -8184,7 +8184,7 @@
     },
     "JxfsMediaStatus": {
         "interface": "com.jxfs.general.JxfsMediaStatus",
-        "content": [
+        "values": [
             {
                 "type": "public static final int",
                 "prop": "JXFS_S_MEDIA_EJECTED",
@@ -8301,7 +8301,7 @@
     },
     "JxfsThresholdStatus": {
         "interface": "com.jxfs.general.JxfsThresholdStatus",
-        "content": [
+        "values": [
             {
                 "type": "public static final int",
                 "prop": "JXFS_S_BIN_EMPTY",
@@ -8362,7 +8362,7 @@
     },
     "JxfsUtilities": {
         "interface": "com.jxfs.general.JxfsUtilities",
-        "content": [
+        "values": [
             {
                 "type": "public static final java.lang.String",
                 "prop": "CONFIG_KEY",
@@ -8416,7 +8416,7 @@
     },
     "LoggerConst": {
         "interface": "com.jxfs.samples.LoggerConst",
-        "content": [
+        "values": [
             {
                 "type": "public static final int",
                 "prop": "LVL_API",
@@ -8449,7 +8449,7 @@
     },
     "InfoBox": {
         "interface": "com.jxfs.samples.application.InfoBox",
-        "content": [
+        "values": [
             {
                 "type": "public static final int",
                 "prop": "CUSTOM_OPTION",
@@ -8510,7 +8510,7 @@
     },
     "MelangeDemoConst": {
         "interface": "com.jxfs.samples.application.MelangeDemoConst",
-        "content": [
+        "values": [
             {
                 "type": "public static final java.lang.String",
                 "prop": "MELD_ALARM_BUSY",
