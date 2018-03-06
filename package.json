@@ -5,7 +5,8 @@
   "version": "1.0.2",
   "main": "index.js",
   "files": [
-    "index.js"
+    "index.js",
+    "constants.min.json"
   ],
   "scripts": {
     "test": "ava"
