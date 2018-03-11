@@ -1,17 +1,17 @@
-# jxfs-lookup [![Build Status](https://secure.travis-ci.org/amimaro/jxfs-lookup.svg?branch=master)](https://travis-ci.org/amimaro/jxfs-lookup) [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
+# jxfs-lookup-promise [![Build Status](https://secure.travis-ci.org/amimaro/jxfs-lookup-promise.svg?branch=master)](https://travis-ci.org/amimaro/jxfs-lookup-promise) [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
 
 J/XFS Constant Field Values Lookup
 
 ## Installation
 
 ```bash
-npm install --save jxfs-lookup
+npm install --save jxfs-lookup-promise
 ```
 
 ## Usage
 
 ```javascript
-const jxfsLookup = require('jxfs-lookup')
+const jxfsLookup = require('jxfs-lookup-promise')
 
 jxfsLookup.query(CODE) // => CODE e.g., 1024
     .then(
