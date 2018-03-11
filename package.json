@@ -5,7 +5,11 @@
   "version": "1.1.1",
   "main": "index.js",
   "files": [
-    "index.js"
+    "index.js",
+    "constants.min.json",
+    "test.js",
+    "README.md",
+    "LICENSE.md"
   ],
   "scripts": {
     "test": "ava"
