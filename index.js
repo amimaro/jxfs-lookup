@@ -5,7 +5,7 @@ const path = require('path')
 const data = JSON.parse(
   fs.readFileSync(
     path.resolve(
-      process.cwd() == __dirname ? '' : process.cwd() + '/node_modules/jxfs-lookup-promise', 'constants.min.json'
+      process.cwd() == __dirname ? '' : process.cwd() + '/node_modules/jxfs-lookup', 'constants.min.json'
     )
   )
 )

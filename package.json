@@ -1,5 +1,5 @@
 {
-  "name": "jxfs-lookup-promise",
+  "name": "jxfs-lookup",
   "description": "J/XFS Constant Field Values Lookup",
   "author": "amimaro",
   "version": "1.1.2",
@@ -14,7 +14,7 @@
   "scripts": {
     "test": "ava"
   },
-  "repository": "amimaro/jxfs-lookup-promise",
+  "repository": "amimaro/jxfs-lookup",
   "keywords": [],
   "license": "MIT",
   "dependencies": {},
