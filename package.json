@@ -14,7 +14,7 @@
   "scripts": {
     "test": "ava"
   },
-  "repository": "amimaro/jxfs-lookup",
+  "repository": "amimaro/jxfs-lookup-promise",
   "keywords": [],
   "license": "MIT",
   "dependencies": {},
